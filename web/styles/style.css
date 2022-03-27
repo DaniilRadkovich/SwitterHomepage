@@ -1,0 +1,94 @@
+body {
+    background-color: rgba(128, 128, 128);
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    color: #808080;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 93%;
+    background-color: rgba(240, 230, 140);
+}
+
+.header-switter-logo {
+    position: absolute;
+    top: 35%;
+    left: 80px;
+}
+
+.round {
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 7px #666;
+}
+
+.header-logo {
+    height: 90%;
+}
+
+.header-user-logo {
+    position: absolute;
+    height: 90%;
+    left: 101%;
+    margin-left: -70px;
+}
+
+form {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    height: 30%;
+    width: 35%;
+}
+
+.post-content {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 0.9rem 0.4rem;
+    font-size: 16px;
+    color: gray;
+}
+
+form button {
+    height: 30%;
+    width: 30%;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 100%;
+}
+
+.submit-button {
+    position: relative;
+    left: 15%;
+    top: 3%;
+    background-color: rgba(189, 183, 107);;
+    color: white;
+}
+
+.submit-button:hover {
+    background-color: rgba(0, 128, 0);;
+}
+
+.clear-button {
+    position: relative;
+    left: 25%;
+    top: 3%;
+    background-color: rgba(189, 183, 107);;
+    color: gray;
+}
+
+.clear-button:hover {
+    background-color: rgba(178, 34, 34);;
+}
+
+.post-background {
+    position: relative;
+    left: 25%;
+    top: 3%;
+    background-color: rgba(240, 230, 140);;
+}
